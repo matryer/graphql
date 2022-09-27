@@ -1,4 +1,4 @@
-# graphql [![GoDoc](https://godoc.org/github.com/machinebox/graphql?status.png)](http://godoc.org/github.com/machinebox/graphql) [![Build Status](https://travis-ci.org/machinebox/graphql.svg?branch=master)](https://travis-ci.org/machinebox/graphql) [![Go Report Card](https://goreportcard.com/badge/github.com/machinebox/graphql)](https://goreportcard.com/report/github.com/machinebox/graphql)
+# graphql [![GoDoc](https://godoc.org/github.com/matryer/graphql?status.png)](http://godoc.org/github.com/matryer/graphql) [![Build Status](https://travis-ci.org/machinebox/graphql.svg?branch=master)](https://travis-ci.org/machinebox/graphql) [![Go Report Card](https://goreportcard.com/badge/github.com/matryer/graphql)](https://goreportcard.com/report/github.com/matryer/graphql)
 
 Low-level GraphQL client for Go.
 
@@ -13,7 +13,7 @@ Low-level GraphQL client for Go.
 Make sure you have a working Go environment. To install graphql, simply run:
 
 ```
-$ go get github.com/machinebox/graphql
+$ go get github.com/matryer/graphql
 ```
 
 ## Usage
@@ -60,7 +60,7 @@ use multipart form data instead using the `UseMultipartForm` option when you cre
 client := graphql.NewClient("https://machinebox.io/graphql", graphql.UseMultipartForm())
 ```
 
-For more information, [read the godoc package documentation](http://godoc.org/github.com/machinebox/graphql) or the [blog post](https://blog.machinebox.io/a-graphql-client-library-for-go-5bffd0455878).
+For more information, [read the godoc package documentation](http://godoc.org/github.com/matryer/graphql) or the [blog post](https://blog.machinebox.io/a-graphql-client-library-for-go-5bffd0455878).
 
 ## Thanks
 
